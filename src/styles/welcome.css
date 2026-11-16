@@ -1,0 +1,353 @@
+.welcome-screen {
+  position: relative;
+  display: flex;
+  isolation: isolate;
+  width: 100%;
+  min-height: 100svh;
+  overflow: hidden;
+  background: var(--white);
+  animation: welcome-appear 600ms ease-out both;
+}
+
+.welcome-screen--leaving {
+  opacity: 0;
+  animation: welcome-disappear 500ms ease-in-out both;
+  pointer-events: none;
+}
+
+.welcome-intro {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex: 0 0 37%;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 100svh;
+  padding: clamp(40px, 5.1vw, 98px) clamp(28px, 5.1vw, 98px);
+  padding-right: clamp(50px, 7.4vw, 142px);
+  background: var(--white);
+  clip-path: polygon(0 0, 100% 0, 79% 100%, 0 100%);
+}
+
+.welcome-intro__brand,
+.welcome-intro__content,
+.welcome-intro__footer {
+  position: relative;
+  z-index: 1;
+}
+
+/* Scope the larger brand treatment to this screen; the approved login stays intact. */
+.welcome-intro .pulse-logo {
+  position: relative;
+  gap: 13px;
+  padding-bottom: 29px;
+}
+
+.welcome-intro .pulse-logo__mark {
+  width: clamp(42px, 3.4vw, 65px);
+  height: clamp(42px, 3.4vw, 65px);
+}
+
+.welcome-intro .pulse-logo__mark rect {
+  fill: none;
+  stroke: none;
+}
+
+.welcome-intro .pulse-logo__mark path {
+  stroke-width: 2.6;
+}
+
+.welcome-intro .pulse-logo__name {
+  font-size: clamp(32px, 3.35vw, 64px);
+  letter-spacing: -0.045em;
+  font-weight: 800;
+}
+
+.welcome-intro .pulse-logo__tagline {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: clamp(7px, 0.62vw, 12px);
+  font-weight: 600;
+  letter-spacing: 0.19em;
+}
+
+.welcome-intro__content {
+  margin: auto 0;
+  padding: 38px 0 100px;
+}
+
+.welcome-intro__accent {
+  display: block;
+  width: 64px;
+  height: 4px;
+  margin-bottom: 31px;
+  border-radius: 4px;
+  background: var(--turquoise);
+}
+
+.welcome-intro h1 {
+  margin: 0;
+  color: var(--navy);
+  font-size: clamp(38px, 3.8vw, 72px);
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  line-height: 1.12;
+}
+
+.welcome-intro__subtitle {
+  max-width: 370px;
+  margin: 18px 0 0;
+  color: #435666;
+  font-size: clamp(17px, 1.65vw, 28px);
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1.45;
+}
+
+.welcome-intro__features {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 40px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.welcome-intro__features li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #435666;
+  font-size: clamp(12px, 0.94vw, 17px);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.welcome-intro__features li > span {
+  display: grid;
+  width: 39px;
+  height: 39px;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 8px;
+  color: var(--blue);
+  background: #e1f5f5;
+}
+
+.welcome-intro__waves {
+  position: absolute;
+  right: -12%;
+  bottom: 9%;
+  left: -12%;
+  pointer-events: none;
+}
+
+.pulse-waves {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.pulse-waves path {
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+  animation: welcome-wave 4s ease-in-out infinite;
+}
+
+.welcome-intro__footer {
+  color: var(--muted);
+  font-size: clamp(11px, 0.85vw, 15px);
+  font-weight: 500;
+}
+
+.welcome-landscape {
+  position: absolute;
+  inset: 0 0 0 29%;
+  overflow: hidden;
+  background: var(--blue);
+}
+
+.welcome-landscape__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 57% center;
+}
+
+.welcome-landscape::after {
+  position: absolute;
+  inset: 55% 0 0;
+  content: "";
+  pointer-events: none;
+  background: linear-gradient(transparent, rgb(13 40 62 / 62%));
+}
+
+.welcome-skip {
+  position: absolute;
+  z-index: 1;
+  top: clamp(24px, 2.5vw, 48px);
+  right: clamp(24px, 3.1vw, 60px);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 19px;
+  border: 1px solid rgb(255 255 255 / 60%);
+  border-radius: 10px;
+  color: var(--white);
+  background: rgb(13 40 62 / 38%);
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 180ms ease;
+}
+
+.welcome-skip:hover {
+  background: rgb(13 40 62 / 65%);
+}
+
+.welcome-skip:disabled {
+  cursor: default;
+}
+
+.welcome-progress {
+  position: absolute;
+  z-index: 1;
+  right: 30px;
+  bottom: clamp(42px, 5.5vw, 106px);
+  left: clamp(60px, 6vw, 115px);
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  color: var(--white);
+}
+
+.loading-spinner {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 auto;
+  color: var(--turquoise);
+  animation: welcome-spin 1.5s linear infinite;
+}
+
+.welcome-progress__text {
+  padding: 2px 0 2px 25px;
+  border-left: 1px solid rgb(255 255 255 / 65%);
+  text-shadow: 0 1px 8px rgb(13 40 62 / 40%);
+}
+
+.welcome-progress__text p {
+  margin: 0;
+  font-size: clamp(14px, 1.1vw, 20px);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.welcome-progress__text p + p {
+  margin-top: 3px;
+  font-size: clamp(11px, 0.85vw, 15px);
+  font-weight: 400;
+}
+
+.home-preview {
+  display: flex;
+  min-height: 100svh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  text-align: center;
+  background: var(--canvas);
+}
+
+.home-preview h1 {
+  margin: 48px 0 12px;
+  font-size: clamp(25px, 4vw, 40px);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+.home-preview > p {
+  margin: 0;
+  color: var(--muted);
+}
+
+@keyframes welcome-appear {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes welcome-disappear {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes welcome-wave {
+  0%, 100% { transform: translate(-8px, 3px); }
+  50% { transform: translate(8px, -5px); }
+}
+
+@keyframes welcome-spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (min-width: 801px) and (max-height: 800px) {
+  .welcome-intro {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .welcome-intro__content { padding: 28px 0 65px; }
+  .welcome-intro__accent { margin-bottom: 24px; }
+  .welcome-intro__features { gap: 10px; margin-top: 27px; }
+  .welcome-intro__subtitle { margin-top: 12px; }
+}
+
+@media (max-width: 1100px) and (min-width: 801px) {
+  .welcome-intro {
+    flex-basis: 42%;
+    padding-left: 35px;
+    padding-right: 70px;
+  }
+  .welcome-landscape { left: 33%; }
+  .welcome-progress { left: 80px; gap: 16px; }
+  .welcome-progress__text { padding-left: 16px; }
+}
+
+@media (max-width: 800px) {
+  .welcome-screen { flex-direction: column; }
+  .welcome-intro {
+    flex: none;
+    min-height: 0;
+    padding: 32px clamp(28px, 6vw, 48px) 38px;
+    clip-path: none;
+  }
+  .welcome-intro .pulse-logo { padding-bottom: 21px; }
+  .welcome-intro .pulse-logo__name { font-size: 38px; }
+  .welcome-intro .pulse-logo__tagline { font-size: 8px; }
+  .welcome-intro__content { margin: 0; padding: 28px 0 35px; }
+  .welcome-intro__accent { width: 48px; height: 3px; margin-bottom: 20px; }
+  .welcome-intro h1 { font-size: 38px; }
+  .welcome-intro__subtitle { max-width: none; margin-top: 10px; font-size: 19px; }
+  .welcome-intro__features { gap: 9px; margin-top: 24px; }
+  .welcome-intro__features li { gap: 12px; font-size: 13px; }
+  .welcome-intro__features li > span { width: 32px; height: 32px; }
+  .welcome-intro__waves { right: 0; bottom: 10px; left: 0; height: 55px; overflow: hidden; }
+  .welcome-intro__footer { font-size: 11px; }
+  .welcome-landscape { position: relative; inset: auto; flex: 1; min-height: 340px; }
+  .welcome-skip { top: 20px; right: 22px; min-height: 44px; }
+  .welcome-progress { right: 22px; bottom: 30px; left: 22px; gap: 14px; }
+  .loading-spinner { width: 38px; height: 38px; }
+  .welcome-progress__text { padding-left: 14px; }
+  .welcome-progress__text p { font-size: 14px; }
+  .welcome-progress__text p + p { max-width: 290px; font-size: 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .welcome-screen,
+  .pulse-waves path,
+  .loading-spinner { animation: none; }
+  .welcome-screen--leaving { transition: none; }
+}

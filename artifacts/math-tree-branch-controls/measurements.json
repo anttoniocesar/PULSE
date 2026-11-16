@@ -1,0 +1,808 @@
+{
+  "viewport": {
+    "width": 2560,
+    "height": 1440
+  },
+  "measurements": [
+    {
+      "state": "01-expandida",
+      "zoom": 0.4,
+      "filename": "01-expandida-40.png",
+      "controls": [
+        {
+          "parentId": "total",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.0003662109375,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00008559152794924144,
+          "outgoing": [
+            0.00008559152794924144,
+            0.00008559152794924144
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "direct",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00002377553465628547,
+          "outgoing": [
+            0.00002377553465628547,
+            0.00002377553465628547,
+            0.00002377553465628547
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "indirect",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00002130376757118731,
+          "outgoing": [
+            0.00002130376757118731,
+            0.00002130376757118731
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        }
+      ]
+    },
+    {
+      "state": "01-expandida",
+      "zoom": 0.8,
+      "filename": "01-expandida-80.png",
+      "controls": [
+        {
+          "parentId": "total",
+          "width": 26,
+          "height": 26,
+          "worldGap": 55.999908447265625,
+          "vertical": 0.00006103515625,
+          "incoming": 0.00008944067716880306,
+          "outgoing": [
+            0.00008944067716880306,
+            0.00008944067716880306
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "direct",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0,
+          "incoming": 0.000020589436495145044,
+          "outgoing": [
+            0.000020589436495145044,
+            0.000020589436495145044,
+            0.000020589436495145044
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "indirect",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0.00006103515625,
+          "incoming": 0.00004260753514237462,
+          "outgoing": [
+            0.00004260753514237462,
+            0.00004260753514237462
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        }
+      ]
+    },
+    {
+      "state": "01-expandida",
+      "zoom": 1.2,
+      "filename": "01-expandida-120.png",
+      "controls": [
+        {
+          "parentId": "total",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.000010172526046,
+          "vertical": 0,
+          "incoming": 0.000024631074063089576,
+          "outgoing": [
+            0.000024631074063089576,
+            0.000024631074063089576
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "direct",
+          "width": 25.9998779296875,
+          "height": 26,
+          "worldGap": 56.000010172526046,
+          "vertical": 0,
+          "incoming": 0.00003720265814800966,
+          "outgoing": [
+            0.00003720265814800966,
+            0.00003720265814800966,
+            0.00003720265814800966
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "indirect",
+          "width": 25.9998779296875,
+          "height": 25.9998779296875,
+          "worldGap": 56.000010172526046,
+          "vertical": 0,
+          "incoming": 0.00004299887501692756,
+          "outgoing": [
+            0.00004299887501692756,
+            0.00004299887501692756
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        }
+      ]
+    },
+    {
+      "state": "02-diretos-recolhidos",
+      "zoom": 0.4,
+      "filename": "02-diretos-recolhidos-40.png",
+      "controls": [
+        {
+          "parentId": "total",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.0003662109375,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00007415927258839425,
+          "outgoing": [
+            0.00007415927258839425,
+            0.00007415927258839425
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "direct",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0,
+          "incoming": 0.00001832323988170561,
+          "outgoing": [],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "+"
+        },
+        {
+          "parentId": "indirect",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00003828741170107368,
+          "outgoing": [
+            0.00003828741170107368,
+            0.00003828741170107368
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        }
+      ]
+    },
+    {
+      "state": "02-diretos-recolhidos",
+      "zoom": 0.8,
+      "filename": "02-diretos-recolhidos-80.png",
+      "controls": [
+        {
+          "parentId": "total",
+          "width": 26,
+          "height": 26,
+          "worldGap": 55.999908447265625,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00011231792413387895,
+          "outgoing": [
+            0.00011231792413387895,
+            0.00011231792413387895
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "direct",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0,
+          "incoming": 0.00003664647976341122,
+          "outgoing": [],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "+"
+        },
+        {
+          "parentId": "indirect",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0.00006103515625,
+          "incoming": 0.00007657482340214736,
+          "outgoing": [
+            0.00007657482340214736,
+            0.00007657482340214736
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        }
+      ]
+    },
+    {
+      "state": "02-diretos-recolhidos",
+      "zoom": 1.2,
+      "filename": "02-diretos-recolhidos-120.png",
+      "controls": [
+        {
+          "parentId": "total",
+          "width": 26,
+          "height": 26.00006103515625,
+          "worldGap": 56.000010172526046,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00003154609568063279,
+          "outgoing": [
+            0.00003154609568063279,
+            0.00003154609568063279
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "direct",
+          "width": 25.9998779296875,
+          "height": 26,
+          "worldGap": 56.000010172526046,
+          "vertical": 0.000030517578125,
+          "incoming": 0.0001108630732860553,
+          "outgoing": [],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "+"
+        },
+        {
+          "parentId": "indirect",
+          "width": 25.9998779296875,
+          "height": 26,
+          "worldGap": 56.000010172526046,
+          "vertical": 0,
+          "incoming": 0.00011388070674234606,
+          "outgoing": [
+            0.00011388070674234606,
+            0.00011388070674234606
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        }
+      ]
+    },
+    {
+      "state": "03-indiretos-recolhidos",
+      "zoom": 0.4,
+      "filename": "03-indiretos-recolhidos-40.png",
+      "controls": [
+        {
+          "parentId": "total",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.0003662109375,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00007069376209746095,
+          "outgoing": [
+            0.00007069376209746095,
+            0.00007069376209746095
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "direct",
+          "width": 26,
+          "height": 26.00006103515625,
+          "worldGap": 56.00006103515625,
+          "vertical": 0,
+          "incoming": 0.000019241725940352943,
+          "outgoing": [
+            0.000019241725940352943,
+            0.000019241725940352943,
+            0.000019241725940352943
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "indirect",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0.000030517578125,
+          "incoming": 0.000019563437957985597,
+          "outgoing": [],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "+"
+        }
+      ]
+    },
+    {
+      "state": "03-indiretos-recolhidos",
+      "zoom": 0.8,
+      "filename": "03-indiretos-recolhidos-80.png",
+      "controls": [
+        {
+          "parentId": "total",
+          "width": 26,
+          "height": 26,
+          "worldGap": 55.999908447265625,
+          "vertical": 0.00006103515625,
+          "incoming": 0.0001029920251104636,
+          "outgoing": [
+            0.0001029920251104636,
+            0.0001029920251104636
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "direct",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0.000030517578125,
+          "incoming": 0.000057603431896336875,
+          "outgoing": [
+            0.000057603431896336875,
+            0.000057603431896336875,
+            0.000057603431896336875
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "indirect",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0.00006103515625,
+          "incoming": 0.000039126875915971195,
+          "outgoing": [],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "+"
+        }
+      ]
+    },
+    {
+      "state": "03-indiretos-recolhidos",
+      "zoom": 1.2,
+      "filename": "03-indiretos-recolhidos-120.png",
+      "controls": [
+        {
+          "parentId": "total",
+          "width": 26,
+          "height": 26.00006103515625,
+          "worldGap": 56.000010172526046,
+          "vertical": 0,
+          "incoming": 0.00004232638981451278,
+          "outgoing": [
+            0.00004232638981451278,
+            0.00004232638981451278
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "direct",
+          "width": 25.9998779296875,
+          "height": 26,
+          "worldGap": 56.000010172526046,
+          "vertical": 0.00006103515625,
+          "incoming": 0.00011479959836731694,
+          "outgoing": [
+            0.00011479959836731694,
+            0.00011479959836731694,
+            0.00011479959836731694
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "indirect",
+          "width": 25.9998779296875,
+          "height": 25.9998779296875,
+          "worldGap": 56.000010172526046,
+          "vertical": 0,
+          "incoming": 0.00013909560380317664,
+          "outgoing": [],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "+"
+        }
+      ]
+    },
+    {
+      "state": "04-ambos-recolhidos",
+      "zoom": 0.4,
+      "filename": "04-ambos-recolhidos-40.png",
+      "controls": [
+        {
+          "parentId": "total",
+          "width": 26,
+          "height": 26,
+          "worldGap": 55.999755859375,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00011247727107686614,
+          "outgoing": [
+            0.00011247727107686614,
+            0.00011247727107686614
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "direct",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0,
+          "incoming": 0.00008389449140416961,
+          "outgoing": [],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "+"
+        },
+        {
+          "parentId": "indirect",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00007926713402225209,
+          "outgoing": [],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "+"
+        }
+      ]
+    },
+    {
+      "state": "04-ambos-recolhidos",
+      "zoom": 0.8,
+      "filename": "04-ambos-recolhidos-80.png",
+      "controls": [
+        {
+          "parentId": "total",
+          "width": 26,
+          "height": 25.99993896484375,
+          "worldGap": 56.00006103515625,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00003924559978596688,
+          "outgoing": [
+            0.00003924559978596688,
+            0.00003924559978596688
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "direct",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0.000030517578125,
+          "incoming": 0.000035338846642907826,
+          "outgoing": [],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "+"
+        },
+        {
+          "parentId": "indirect",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0,
+          "incoming": 0.000040359143820364646,
+          "outgoing": [],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "+"
+        }
+      ]
+    },
+    {
+      "state": "04-ambos-recolhidos",
+      "zoom": 1.2,
+      "filename": "04-ambos-recolhidos-120.png",
+      "controls": [
+        {
+          "parentId": "total",
+          "width": 26,
+          "height": 26,
+          "worldGap": 55.999959309895836,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00010726604658712199,
+          "outgoing": [
+            0.00010726604658712199,
+            0.00010726604658712199
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "direct",
+          "width": 25.9998779296875,
+          "height": 26,
+          "worldGap": 56.000010172526046,
+          "vertical": 0,
+          "incoming": 0.00008234866543120965,
+          "outgoing": [],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "+"
+        },
+        {
+          "parentId": "indirect",
+          "width": 25.9998779296875,
+          "height": 26.00006103515625,
+          "worldGap": 56.000010172526046,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00009331992544301223,
+          "outgoing": [],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "+"
+        }
+      ]
+    },
+    {
+      "state": "05-reexpandida",
+      "zoom": 0.4,
+      "filename": "05-reexpandida-40.png",
+      "controls": [
+        {
+          "parentId": "total",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.0003662109375,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00008559152794924144,
+          "outgoing": [
+            0.00008559152794924144,
+            0.00008559152794924144
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "direct",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00002377553465628547,
+          "outgoing": [
+            0.00002377553465628547,
+            0.00002377553465628547,
+            0.00002377553465628547
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "indirect",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0.000030517578125,
+          "incoming": 0.00004511972129410199,
+          "outgoing": [
+            0.00004511972129410199,
+            0.00004511972129410199
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        }
+      ]
+    },
+    {
+      "state": "05-reexpandida",
+      "zoom": 0.8,
+      "filename": "05-reexpandida-80.png",
+      "controls": [
+        {
+          "parentId": "total",
+          "width": 26,
+          "height": 26,
+          "worldGap": 55.999908447265625,
+          "vertical": 0.00006103515625,
+          "incoming": 0.00008944067716880306,
+          "outgoing": [
+            0.00008944067716880306,
+            0.00008944067716880306
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "direct",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0,
+          "incoming": 0.000020589436495145044,
+          "outgoing": [
+            0.000020589436495145044,
+            0.000020589436495145044,
+            0.000020589436495145044
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "indirect",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.00006103515625,
+          "vertical": 0.00006103515625,
+          "incoming": 0.00009023944258820398,
+          "outgoing": [
+            0.00009023944258820398,
+            0.00009023944258820398
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        }
+      ]
+    },
+    {
+      "state": "05-reexpandida",
+      "zoom": 1.2,
+      "filename": "05-reexpandida-120.png",
+      "controls": [
+        {
+          "parentId": "total",
+          "width": 26,
+          "height": 26,
+          "worldGap": 56.000010172526046,
+          "vertical": 0,
+          "incoming": 0.000024631074063089576,
+          "outgoing": [
+            0.000024631074063089576,
+            0.000024631074063089576
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "direct",
+          "width": 25.9998779296875,
+          "height": 26,
+          "worldGap": 56.000010172526046,
+          "vertical": 0,
+          "incoming": 0.00003720265814800966,
+          "outgoing": [
+            0.00003720265814800966,
+            0.00003720265814800966,
+            0.00003720265814800966
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        },
+        {
+          "parentId": "indirect",
+          "width": 25.9998779296875,
+          "height": 25.9998779296875,
+          "worldGap": 56.000010172526046,
+          "vertical": 0,
+          "incoming": 0.00006366039267579884,
+          "outgoing": [
+            0.00006366039267579884,
+            0.00006366039267579884
+          ],
+          "hit": true,
+          "visible": true,
+          "realNode": true,
+          "symbol": "−"
+        }
+      ]
+    }
+  ],
+  "browserErrors": [],
+  "browserWarnings": []
+}
